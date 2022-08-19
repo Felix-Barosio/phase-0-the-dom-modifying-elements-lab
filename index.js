@@ -8,7 +8,6 @@ mains.remove();
 
 const newHeader = document.createElement('h1');
 newHeader.id = 'victory';
-// newHeader.innerHTML = 'Felix is the champion'
-newHeader.textContent = 'Felix is the champion';
+newHeader.innerHTML = 'Felix is the champion'
 
 document.body.append(newHeader)
